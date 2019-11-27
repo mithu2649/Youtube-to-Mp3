@@ -39,7 +39,7 @@ print("Download Complete.")
 try:
     #rename the mp4 audio file to mp3
     #works for most of the systems with no conversion
-    os.rename("/tmp/"+songName+".mp4", "/tmp/"+songName+".mp3")
+    os.rename("songName+".mp4", songName+".mp3")
     print("Converted Succesfully")
 except:
     print("Something went wrong. \nPlease convert the file manually using other software.")
